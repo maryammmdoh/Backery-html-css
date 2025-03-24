@@ -1,0 +1,320 @@
+body {
+    margin: 0;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+}
+
+.bg-img {
+    background-image: url(../Bakery_images/drew-coffman-1872.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 110vh;
+    position: relative;
+}
+
+.contanir {
+    margin: 70px 150px;
+    width: 80%;
+}
+
+/* Nav bar */
+.bg-img #navbar {
+    position: static;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    top: 0;
+    /* z-index: 1000; */
+}
+
+.bg-img #navbar .logo img {
+    width: 200px;
+    margin-left: 50px;
+}
+
+.bg-img #navbar .menu a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.setting {
+    background-color: #FFFFFF;
+    width: 40px;
+    height: 90px;
+    position: fixed;
+    top: 30%;
+    right: 0;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.setting img {
+    width: 40px;
+}
+
+/* First bage */
+.bg-img .first-page {
+    text-align: center;
+    color: white;
+    padding: 150px;
+    font-size: 25px;
+}
+
+.bg-img .first-page h1 {
+    font-size: 70px;
+    margin: 8px;
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+}
+
+.bg-img .first-page p {
+    width: 600px;
+    margin: auto;
+}
+
+.bg-img .first-page .homepara {
+    color: #F5F2F0;
+}
+
+.bg-img .first-page button {
+    padding: 15px 30px;
+    background-color: transparent;
+    border: 2px solid white;
+    margin-top: 70px;
+    border-radius: 5px;
+    color: white;
+}
+
+/* SECOND PAGE */
+
+.who-we-are {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+
+}
+
+.who-we-are .main-image {
+    display: inline-block;
+    width: 45%;
+}
+
+.who-we-are .main-image img {
+    width: 100%;
+
+}
+
+.who-we-are .who-content {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    margin-left: 70px;
+    margin-top: 50px;
+
+}
+
+.who-we-are .who-content .page1 .p1,
+.p2,
+.p3,
+.p4 {
+    padding: 5px 0;
+}
+
+.who-we-are .who-content .page1 img {
+    width: 40px;
+    vertical-align: middle;
+    background-color: #FFFFFF;
+    border: 1px lightgray solid;
+    border-radius: 50%;
+}
+
+.who-we-are .who-content .page1 p {
+    display: inline-block;
+}
+
+/* THIRD PAGE */
+
+.contanir-bgc {
+    background-color: #F8F8F8;
+}
+
+.Our-Location {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.Our-Location .main-image {
+    display: inline-block;
+    width: 45%;
+}
+
+.Our-Location .main-image img {
+    width: 100%;
+}
+
+.Our-Location .location-content {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    padding-right: 60px;
+    margin-right: 70px;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+/* FORTH PAGE */
+
+.our-backing {
+    text-align: center;
+    width: 100%;
+}
+
+.our-backing .item {
+    width: 30%;
+    float: left;
+    padding: 0 19px;
+    margin-top: 50px;
+}
+
+.our-backing .item img {
+    width: 100%;
+}
+
+.our-backing .item p {
+    line-height: 1.6;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+/* FIFTH PAGE */
+.contanir-cbgc {
+    background-color: #F8F8F8;
+}
+
+.contact-info .cont-para {
+    float: left;
+    width: 45%;
+    padding-left: 30px;
+    padding-right: 80px;
+
+}
+
+.contact-info .cont-para ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info .cont-para ul,
+p,
+span {
+    color: #666;
+}
+
+.contact-info .cont-para ul li img {
+    width: 40px;
+    vertical-align: middle;
+    background-color: #8e7754;
+    border-radius: 50%;
+    margin: 10px 10px;
+}
+
+.contact-info .map {
+    float: left;
+    width: 45%;
+}
+
+.contact-info .map iframe {
+    width: 100%;
+    height: 400px;
+}
+
+
+/* ABOUT US PAGE */
+.contanir-aboutbgc {
+    background-color: #403d38;
+    width: 100%;
+    padding: 50px 0;
+
+}
+
+.about-us {
+    width: 90%;
+    margin: 0 AUTO;
+}
+
+.about-us img {
+    width: 30px;
+}
+
+.about-us .section1,
+.section2,
+.section3,
+.section4 {
+    float: left;
+    width: 23%;
+    /* padding: 0 10px; */
+    margin: 0 10px;
+
+}
+
+.about-us ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-us ul li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: #969696;
+    margin: 16px 0;
+}
+
+.about-us ul img {
+    vertical-align: middle;
+    margin-bottom: 4px;
+    background-color: transparent;
+}
+
+.about-us h2,
+h3 {
+    color: #ffffff;
+}
+
+.about-us .section1 p {
+    color: #858585;
+}
+
+.about-us .section4 ul {
+    background-image: url(../Bakery_images/contact-details-map.png);
+    background-size: cover;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    margin: auto;
+    background-color: #353330;
+    padding: 70px 0;
+}
+
+.footer .bakery-logo img {
+    width: 150px;
+}
+
+.footer p {
+    padding: 10px 0;
+}
+
+.footer .icons img {
+    width: 40px;
+    background-color: #504d48;
+    border-radius: 50%;
+}
